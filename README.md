@@ -2,7 +2,18 @@
 ![Tanzania](https://www.wvi.org/sites/default/files/2022-06/Water%20for%20Change%20-%20Tanzania.png)
 # <center> Phase 3 Project: Tanzanian Water Wells <center>
    <center>  By: Keanan Ginell
-   
+# Business Overview
+ Having access to water is a basic human right. In poorer countries this is unfortunately a problem people face everyday. To ensure the people of Tanzania have access to water, the government of Tanzania has tasked me with building a model to help predict if a well is functioning and which wells need repair.
+The stakeholders in this problem are the Tanzanian governement, citizens of tanzania, and those working in repairing the water wells.
+
+
+Functioning wells
+
+
+Ability to accurately predict wells that will need repair
+
+
+
    
  # Conclusion
 
