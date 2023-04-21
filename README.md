@@ -7,10 +7,10 @@
 The stakeholders in this problem are the Tanzanian governement, citizens of tanzania, and those working in repairing the water wells.
 
 
-Method
+# Method
 To do this I first developed a baseline model using a dummy model, I then aanalyzed several other models includeing a decision tree, logistic regression, and random forest. After determing the random forest model performs the best I optimized the parameters and created my final model with a accuacy of 81% compared to the baseline model of 54%
 
-Results
+# Results
 
 ![Feature Importance](feature_importance.png)
 
@@ -19,6 +19,7 @@ Results
 ![well_locations](well_locations.png)
 
 
+![well_locations3](well_locations3.png)
 
 
 
