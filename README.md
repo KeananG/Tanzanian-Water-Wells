@@ -15,10 +15,10 @@ To do this I first developed a baseline model using a dummy model, I then aanaly
 ![Feature Importance](feature_importance.png)
 
 ![scores](scores.png)
-
+# Wells gps height
 ![well_locations](well_locations.png)
 
-
+# Wells Functionality
 ![well_locations3](well_locations3.png)
 
 
