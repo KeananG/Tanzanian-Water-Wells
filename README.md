@@ -7,10 +7,20 @@
 The stakeholders in this problem are the Tanzanian governement, citizens of tanzania, and those working in repairing the water wells.
 
 
-Functioning wells
+Method
+To do this I first developed a baseline model using a dummy model, I then aanalyzed several other models includeing a decision tree, logistic regression, and random forest. After determing the random forest model performs the best I optimized the parameters and created my final model with a accuacy of 81% compared to the baseline model of 54%
+
+Results
+
+![Feature Importance](feature_importance.png)
+
+![scores](scores.png)
+
+![well_locations](well_locations.png)
 
 
-Ability to accurately predict wells that will need repair
+
+
 
 
 
@@ -28,3 +38,4 @@ Final Model:
 - Recall - 81%
 
 The final model used a random forest with optimized parameters. This model can be used to predict is a well is functional, non functional, or functional and needs repair. Safe access to clean water is a basic human right, these wells are important to ensuring that this human right is met. My model can help the Tanzanian government determine if a well needs to be fixed. 
+
