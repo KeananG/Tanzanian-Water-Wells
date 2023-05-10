@@ -8,7 +8,7 @@ The stakeholders in this problem are the Tanzanian governement, citizens of tanz
 
 
 # Method
-To do this I first developed a baseline model using a dummy model, I then aanalyzed several other models includeing a decision tree, logistic regression, and random forest. After determing the random forest model performs the best I optimized the parameters and created my final model with a accuacy of 81% compared to the baseline model of 54%
+To do this I first developed a baseline model using a dummy model, I then analyzed several other models including a decision tree, logistic regression, and random forest. After determining the random forest model performs the best I optimized the parameters and created my final model with a accuacy of 81% compared to the baseline model of 54%
 
 # Results
 
