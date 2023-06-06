@@ -35,6 +35,12 @@ Map depicting both the elevation of Tanzania and wells' GPS heights. The color s
    
 Upon reviewing the maps, it is evident that the GPS heights for most wells correspond appropriately to their expected elevations. However, there are certain instances of unalignment, suggesting that several GPS heights may have been incorrectly recorded as 0 or another incorrect value.
 
+   
+![Tanzania Elevation and wells' GPS Heights map 2](gps_heights_at0.png) 
+In this map, wells with GPS heights of 0 are represented in red, while those above 0 are depicted in grey, and below 0 are shown in blue. Upon closer examination, it becomes apparent that the majority of wells with GPS heights recorded as 0 are situated in locations that do not align with the expected elevation for those specific coordinates.   
+<br>
+      
+</br>
 # Wells Functionality
 ![well_locations3](well_locations3.png)
 This map depicts the location of the wells across Tanzania according to their class, Functional, Functional but needs repair, and non-Functional.
@@ -56,6 +62,6 @@ Final Model:
 - Recall - 81%
 
 The final model used in this approach is a random forest with optimized parameters. This model serves the purpose of predicting the status of a well, whether it is functional, non-functional, or functional but in need of repair. Given that access to safe and clean water is considered a fundamental human right, these wells play a vital role in ensuring access to clean water. By utilizing my model, the Tanzanian government can effectively assess whether a well requires repair, aiding in their decision-making process. 
-      As I look ahead to the next steps, I am planning to revise the process of developing a predictive model. Initially, I will create a binary classification model with the aim of improving the accuracy of predicting whether a well is functional or not. This binary model will be generated twice, with wells needing repair categorized differently in each model. Once the optimal split for the three classes is determined, a second model will be constructed to predict within the class that contains functional wells but needs repair. This second model will identify which wells specifically need repair. The objective is to enhance the accuracy of predicting the three classes by utilizing two binary classification models as opposed to the current three class model.
+      As I look ahead to the next steps, I am planning to revise the process of developing a predictive model. Initially, I will create a binary classification model with the aim of improving the accuracy of predicting whether a well is functional or not. This binary model will be generated twice, with wells needing repair categorized differently in each model. Once the optimal split for the three classes is determined, a second model will be constructed to predict within the class that contains functional wells but needs repair. This second model will identify which wells specifically need repair. The objective is to enhance the accuracy of predicting the three classes by utilizing two binary classification models as opposed to the current three class model. Furthermore, I intend to address the issue of wells with incorrect GPS elevation data by either removing them from the dataset or estimating their values based on the overall elevation data of Tanzania. This step aims to improve the accuracy and reliability of the dataset, ensuring that the analysis is based on valid and consistent information.
 
 ion
