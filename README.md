@@ -1,4 +1,4 @@
-# Tanzanian-Water-Wells
+# Tanzanian Water Wells
 ![Tanzania](https://www.wvi.org/sites/default/files/2022-06/Water%20for%20Change%20-%20Tanzania.png)
 # <center> Phase 3 Project: Tanzanian Water Wells <center>
    <center>  By: Keanan Ginell
