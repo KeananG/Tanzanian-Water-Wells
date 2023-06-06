@@ -41,9 +41,11 @@ In this map, wells with GPS heights of 0 are represented in red, while those abo
 <br>
       
 </br>
+   
 # Wells Functionality
+   
 ![well_locations3](well_locations3.png)
-This map depicts the location of the wells across Tanzania according to their class, Functional, Functional but needs repair, and non-Functional.
+This map depicts the location of the wells across Tanzania according to their class, functional, functional but needs repair, and non-functional.
 
 
 
