@@ -13,15 +13,31 @@ In order to achieve this, I initially constructed a dummy model utilizing this a
 
 ![Feature Importance](feature_importance.png)
 
-      Among the various features considered, the most crucial one is GPS Height, and there are several potential reasons for its significance. Firstly, there may exist a correlation between the altitude of a well and other inherent attributes that are typically associated with different altitudes. Secondly, the type of well pump utilized may vary at different altitudes, subsequently affecting its functional capacity. The remaining important features, such as the well's age, water availability, and TSH, were expected to contribute more significantly to the overall analysis.
+Among the various features considered, the most crucial one is GPS height, and there are several potential reasons for its significance. Firstly, there may exist a correlation between the altitude of a well and other inherent attributes that are typically associated with different altitudes. Secondly, the type of well pump utilized may vary at different altitudes, subsequently affecting its functional capacity. The remaining important features, such as the well's age, water availability, and TSH, were expected to contribute more significantly to the overall analysis.
       
 ![scores](scores.png)
-# Wells gps height
-![well_locations](well_locations.png)
+      
+      
+# Wells GPS Height
+![Wells GPS Height](gps_height.png)
+Map of each well with color weighted according to their GPS height. Red indicates the highest elevation, and blue indicates the lowest elevation.
+
+![Elevation map of Tanzania](Tanzania_elevation.png)      
+A map depicting the elevation of Tanzania was generated, the resolution of the color scale for the elevation map of Tanzania was reduced due to the inability to achieve a matching resolution when mapping the GPS height points of each well.
+ 
+<br>
+      
+</br>
+
+![Tanzania Elevation and wells' GPS Heights](Full_gps_height.png)     
+Map depicting both the elevation of Tanzania and wells' GPS heights. The color scale of the wells' GPS height was adjusted to align with the color range used in the map of Tanzania's elevation. 
+
+   
+Upon reviewing the maps, it is evident that the GPS heights for most wells correspond appropriately to their expected elevations. However, there are certain instances of unalignment, suggesting that several GPS heights may have been incorrectly recorded as 0 or another incorrect value.
 
 # Wells Functionality
 ![well_locations3](well_locations3.png)
-
+This map depicts the location of the wells across Tanzania according to their class, Functional, Functional but needs repair, and non-Functional.
 
 
 
